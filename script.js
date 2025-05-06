@@ -1,4 +1,4 @@
-fetch('https://datetime-api-3.onrender.com/datetime')
+fetch('https://datetime-api-3.onrender.com')
   .then(response => response.json())
   .then(data => {
     console.log(data);  // Verifique se a resposta da API é válida
