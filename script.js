@@ -1,6 +1,6 @@
 const API_URL = 'https://datetime-api-3.onrender.com/datetime';
 
-fetch(API_URL)
+fetch(https://datetime-api-3.onrender.com/datetime)
   .then(response => response.json())
   .then(data => {
     document.getElementById('datetime').textContent = data.datetime;
